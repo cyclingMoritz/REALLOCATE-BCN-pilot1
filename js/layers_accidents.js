@@ -29,7 +29,14 @@ var layers = [
         12, 0,
         15, 5
       ],
-      "circle-stroke-width": 1,
+      "circle-stroke-width": [
+        "interpolate",
+        ["linear"],
+        ["zoom"],
+        12, 0,
+        15, 1
+      ],
+      // "circle-stroke-width": 1,
       // "circle-stroke-color": "#333",
       "circle-opacity": 0.8
     },
